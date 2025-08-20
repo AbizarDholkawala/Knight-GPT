@@ -21,4 +21,8 @@ To get started -
 2) Turn on developer options
 3) click on Load Unpacked
 4) Upload the folder in which you cloned the project
-5) Pin Knight-GPT extension.
+5) Click on Knight-GPT extension details
+6) Open Extension options
+7) Enter your api key to fetch gemini api
+8) click on save
+9) Pin Knight-GPT and start using.
