@@ -15,6 +15,7 @@ Three summary modes:
 *Installation*
 
 git clone https://github.com/AbizarDholkawala/Knight-GPT
+
 To get started - 
 1) Open manage extensions
 2) Turn on developer options
