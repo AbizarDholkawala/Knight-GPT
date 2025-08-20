@@ -4,6 +4,7 @@ A chrome extension that transforms lengthy articles or blog posts into concise s
 Choose from three styles brief, detailed, or bullet points to save reading time and get the gist instantly.
 
 *Features*
+
 Summarize any article or blog post by going to the any news/blog site.
 Just enter your gemini api key and you are ready to summarize.
 Three summary modes:
@@ -12,6 +13,7 @@ Three summary modes:
 - bullets
 
 *Installation*
+
 git clone https://github.com/AbizarDholkawala/Knight-GPT
 To get started - 
 1) Open manage extensions
