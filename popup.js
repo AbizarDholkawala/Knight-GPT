@@ -74,7 +74,7 @@ async function getGeminiSummary(text, summaryType, apiKey) {
       prompt = `Provide a brief summary of the following article in 2-3 sentences:\n\n${truncatedText}`;
       break;
     case "detailed":
-      prompt = `Provide a detailed summary of the following article, covering all main points and key details:\n\n${truncatedText}`;
+      prompt = `Provide a detailed summary of the followind:\Installers\Installers\QuickRead\popup.cssg article, covering all main points and key details:\n\n${truncatedText}`;
       break;
     case "bullets":
       prompt = `Summarize the following article in 5-7 key points. Format each point as a line starting with "- " (dash followed by a space). Do not use asterisks or other bullet symbols, only use the dash. Keep each point concise and focused on a single key insight from the article:\n\n${truncatedText}`;

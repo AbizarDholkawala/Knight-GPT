@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Knight GPT Settings</title>
+    <title>QuickRead Settings</title>
     <style>
       body {
         font-family: Arial, sans-serif;
         padding: 20px;
         max-width: 600px;
         margin: 0 auto;
+        background: #1b1b1b;
+        color: #e5e7eb;
       }
       h1 {
         color: #4285f4;
+        text-align: center;
       }
       .form-group {
         margin-bottom: 20px;
@@ -20,23 +23,49 @@
         margin-bottom: 5px;
         font-weight: bold;
       }
+      .password-wrapper {
+        position: relative;
+      }
+      input[type="password"],
       input[type="text"] {
         width: 100%;
         padding: 8px;
         box-sizing: border-box;
-        border: 1px solid #ddd;
+        border: 1px solid #333333;
+        background: #1f1f1f;
+        color: #e5e7eb;
         border-radius: 4px;
       }
+      .password-wrapper input {
+        padding-right: 36px;
+      }
+      .toggle-visibility {
+        position: absolute;
+        right: 8px;
+        top: 50%;
+        transform: translateY(-50%);
+        border: none;
+        background: transparent;
+        cursor: pointer;
+        padding: 4px;
+        color: #666;
+      }
+      .toggle-visibility:hover {
+        color: #333;
+      }
       button {
-        background-color: #4285f4;
+        background-color: #2563eb;
         color: white;
         border: none;
         padding: 10px 15px;
-        border-radius: 4px;
+        border-radius: 6px;
         cursor: pointer;
+        display: block;
+        margin: 0 auto;
+        box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25);
       }
       button:hover {
-        background-color: #3367d6;
+        background-color: #1d4ed8;
       }
       .success-message {
         color: green;
@@ -46,11 +75,14 @@
     </style>
   </head>
   <body>
-    <h1>Knight GPT Settings</h1>
+    <h1>QuickRead Settings</h1>
 
     <div class="form-group">
       <label for="api-key">Gemini API Key:</label>
-      <input type="text" id="api-key" placeholder="Enter your Gemini API key" />
+      <div class="password-wrapper">
+        <input type="password" id="api-key" placeholder="Enter your Gemini API key" />
+        <button type="button" id="toggle-visibility" class="toggle-visibility" aria-label="Show API key" title="Show API key">Show</button>
+      </div>
       <p>
         You can get an API key from
         <a href="https://makersuite.google.com/app/apikey" target="_blank"
