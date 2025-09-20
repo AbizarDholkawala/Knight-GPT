@@ -1,4 +1,4 @@
-# Knight-GPT
+# QuickRead
 
 A chrome extension that transforms lengthy articles or blog posts into concise summaries.
 Choose from three styles brief, detailed, or bullet points to save reading time and get the gist instantly.
@@ -14,15 +14,15 @@ Three summary modes:
 
 *Installation*
 
-git clone https://github.com/AbizarDholkawala/Knight-GPT
+git clone https://github.com/AbizarDholkawala/QuickRead
 
 To get started - 
 1) Open manage extensions
 2) Turn on developer options
 3) click on Load Unpacked
 4) Upload the folder in which you cloned the project
-5) Click on Knight-GPT extension details
+5) Click on QuickRead extension details
 6) Open Extension options
 7) Enter your api key to fetch gemini api
 8) click on save
-9) Pin Knight-GPT and start using.
+9) Done Voila! Just pin QuickRead and start using.
