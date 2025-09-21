@@ -8,9 +8,9 @@ Choose from three styles brief, detailed, or bullet points to save reading time 
 Summarize any article or blog post by going to the any news/blog site.
 Just enter your gemini api key and you are ready to summarize.
 Three summary modes:
-- brief
-- detailed
-- bullets
+- Brief
+- Detailed
+- Bullets
 
 *Installation*
 
