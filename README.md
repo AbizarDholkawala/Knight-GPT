@@ -1,4 +1,4 @@
-# QuickRead Guide :
+# QuickRead Guide 
 
 A chrome extension that transforms lengthy articles or blog posts into concise summaries.
 Choose from three styles brief, detailed, or bullet points to save reading time and get the gist instantly.
